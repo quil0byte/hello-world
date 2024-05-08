@@ -1,0 +1,38 @@
+body {
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-input{
+  width: 80%;
+  height: 250px;
+  padding: 5px;
+  border: 0.5px solid slategray;
+  border-radius: 5px;
+}
+
+#format-btn{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#action-btn-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.action-btn{
+  margin: 3px;
+}
+
+#output{
+  width: 80%;
+  height: 250px;
+  padding: 5px;
+  overflow: scroll;
+  border: 0.5px solid slategray;
+  border-radius: 5px;
+}
